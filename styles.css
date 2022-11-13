@@ -42,6 +42,8 @@ body {
 
 .card-img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 10px 0 0 10px;
 }
 
@@ -65,7 +67,7 @@ del {
 .card-title {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1em;
   color: var(--very-dark-blue);
   margin-bottom: 30px;
@@ -73,11 +75,12 @@ del {
 
 .card-text {
   font-weight: 500;
-  line-height: 1.6em;
+  line-height: 1.5em;
   margin-bottom: 30px;
 }
 
 .price {
+  height: 30px;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
@@ -86,7 +89,7 @@ del {
 .price h4 {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   color: var(--dark-cyan);
   padding-right: 20px;
 }
@@ -94,10 +97,11 @@ del {
 .btn {
   display: block;
   width: 100%;
+  height: 48px;
   border: none;
   background-color: var(--dark-cyan);
   color: var(--white);
-  padding: 14px;
+  padding: 16px;
   border-radius: 8px;
   font-weight: 700;
 }
