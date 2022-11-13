@@ -104,9 +104,15 @@ del {
   padding: 16px;
   border-radius: 8px;
   font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.5s;
 }
 
 .btn > img {
   padding: 0 10px;
   vertical-align: middle;
+}
+
+.btn:hover {
+  background-color: hsl(158, 63%, 25%);
 }
