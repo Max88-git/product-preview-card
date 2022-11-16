@@ -68,7 +68,7 @@ del {
 .card-title {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 1em;
   color: var(--very-dark-blue);
   margin-bottom: 30px;
@@ -90,7 +90,7 @@ del {
 .price h4 {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 32px;
   color: var(--dark-cyan);
   padding-right: 20px;
 }
