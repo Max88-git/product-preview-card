@@ -129,8 +129,9 @@ del {
   }
   .card-img {
     background-image: url(/images/image-product-mobile.jpg);
-    border-radius: 10px 10px 0 0;
     height: 240px;
+    object-position: 0 -115px;
+    border-radius: 10px 10px 0 0;
   }
   .card-right {
     width: 100%;
